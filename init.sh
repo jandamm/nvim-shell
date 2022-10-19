@@ -1,6 +1,6 @@
 #!/usr/bin/env sh
 
-__nvim-shell-check() { [ -n "$NVIM_LISTEN_ADDRESS" ] }
+__nvim-shell-check() { [ -n "$NVIM" ] }
 e() {
 	# split
 	if __nvim-shell-check; then
